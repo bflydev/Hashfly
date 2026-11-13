@@ -33,7 +33,7 @@ Hashfly is a portable desktop utility. You drop the `.exe` anywhere in your OS f
 2. **Place** the `.exe` inside any base directory or folder you want to scan and audit.
 3. **Run** `hashfly.exe`. It will instantly generate a `hashes/` directory mirroring your subfolders and text files containing the SHA-256 hashes.
 
-> **Windows SmartScreen Notice:** Because Hashfly is a newly compiled open-source utility without an expensive commercial code-signing certificate, Windows SmartScreen may occasionally flag it on first download with a "Windows protected your PC" popup. Click **More info** and then **Run anyway**, or review the source code to compile it yourself.
+> **A foreword on security queries.** If your antivirus or Windows SmartScreen flags the executable, it is a known false positive common to PyInstaller-bundled scripts. You can inspect the source code yourself or compile it from source using the instructions below if you prefer complete security.
 
 ## LICENSE 
 **GPL-3.0** — see [`LICENSE`](LICENSE). Free to use, change and share, but any copy or modified version must also stay free and open source under the same licence.
