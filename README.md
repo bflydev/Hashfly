@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hashfly\icon.ico" alt="Hashfly logo" width="160">
+  <img src="hashfly/icon.ico" alt="Hashfly logo" width="160">
 </p>
 
 <h1 align="center">Hashfly</h1>
@@ -35,12 +35,14 @@ Hashfly is a portable desktop utility. You drop the `.exe` anywhere in your OS f
 
 > **Windows SmartScreen Notice:** Because Hashfly is a newly compiled open-source utility without an expensive commercial code-signing certificate, Windows SmartScreen may occasionally flag it on first download with a "Windows protected your PC" popup. Click **More info** and then **Run anyway**, or review the source code to compile it yourself.
 
+## LICENSE 
+**GPL-3.0** — see [`LICENSE`](LICENSE). Free to use, change and share, but any copy or modified version must also stay free and open source under the same licence.
+
 ## Build from source
 
 Needs **Python 3.10+** and **PyInstaller**.
 
 ```bash
 git clone [https://github.com/YOUR_USERNAME/Hashfly.git](https://github.com/YOUR_USERNAME/Hashfly.git)
-cd Hashfly
 pip install pyinstaller
-pyinstaller --onefile --noconsole --icon=icon.ico hashfly.py
+pyinstaller --onefile --noconsole --icon="PATHTOYOURicon.ico" "PATHTOYOURhashfly.py"
