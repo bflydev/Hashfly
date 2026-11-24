@@ -29,7 +29,7 @@ Hashfly is a portable desktop utility. You drop the `.exe` anywhere in your OS f
 
 ## Usage
 
-1. **Download** `hashfly.exe` from the [latest release](https://github.com/YOUR_USERNAME/Hashfly/releases/latest).
+1. **Download** `hashfly.exe` from the [latest release](https://github.com/bflydev/Hashfly/releases/latest).
 2. **Place** the `.exe` inside any base directory or folder you want to scan and audit.
 3. **Run** `hashfly.exe`. It will instantly generate a `hashes/` directory mirroring your subfolders and text files containing the SHA-256 hashes.
 
